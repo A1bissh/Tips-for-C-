@@ -7,6 +7,7 @@ using namespace std;
 
 int main()
 {
+    srand(time(NULL)); //запуск счетчика для рандомных чисел
   //просто выдать рандомные числа
     //вывожу на экран 5 рандомных чисел
     cout<<"1st random number: "<< rand() % 100 << endl;
