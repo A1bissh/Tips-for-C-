@@ -53,8 +53,14 @@ int main()
   // задаю через for
   int arrlot2[3][2];
   for(i=0;i<3;i++)
-    for(int j=0;j<2;j++)
+    {
+      for(int j=0;j<2;j++)
       arrlot2[i][j]=rand() % 10;
+    }
+
+//правильный вывод массива
+  printf("%4d", arrlot[i][j]);
+  printf("%4d", arrlot2[i][j]);
 
 
 system("pause");
