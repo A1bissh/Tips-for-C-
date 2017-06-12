@@ -17,7 +17,6 @@ int main()
     //выводит числа в диапозоне +- 100
     cout<<"5th random number: "<< rand() % 200 - 100<< endl;
 
-
   system("pause");
   return pause;
 }
